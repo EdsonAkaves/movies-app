@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+```markdown
+# Movies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao 'Movies', uma aplicação web que permite aos usuários buscar e visualizar informações sobre filmes. A aplicação consome a API do TMDb (The Movie Database) para obter dados sobre filmes.
 
-## Available Scripts
+## O que é o Movies App?
 
-In the project directory, you can run:
+O 'Movies' é uma aplicação web que permite a você explorar uma vasta coleção de filmes. Se você é um amante do cinema, um cinéfilo ávido ou alguém que busca inspiração para a próxima noite de cinema, nosso aplicativo é o seu companheiro perfeito.
 
-### `npm start`
+## Recursos Principais
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Exploração por Gênero:** Explore uma variedade de gêneros de filmes, desde ação empolgante até dramas emocionantes e comédias hilárias.
+* **Pesquisa Inteligente:** Encontre facilmente os filmes que você ama com uma pesquisa inteligente e eficaz.
+* **Detalhes do Filme:** Obtenha informações detalhadas sobre cada filme.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pré-requisitos
 
-### `npm test`
+Antes de começar, certifique-se de ter o Node.js instalado em seu ambiente de desenvolvimento:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Node.js:** [Download Node.js](https://nodejs.org/)
 
-### `npm run build`
+## Configuração
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório para o seu ambiente de desenvolvimento usando o comando:
+```
+git clone https://github.com/EdsonAkaves/movies-app.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navegue até a pasta do projeto com `cd movies-app`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Crie um arquivo '.env' na raiz do projeto com as seguintes variáveis de ambiente:
 
-### `npm run eject`
+```
+REACT_APP_API_KEY=Coloque sua chave do TMDB aqui para conseguir executar o Movies
+REACT_APP_API=https://api.themoviedb.org/3/movie/
+REACT_APP_SEARCH=https://api.themoviedb.org/3/search/movie
+REACT_APP_IMG=https://image.tmdb.org/t/p/w500/
+REACT_APP_GENRE=https://api.themoviedb.org/3/genre/movie/list?
+REACT_APP_LIST=https://api.themoviedb.org/3/account/
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Instale as dependências do projeto utilizando npm install:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+o	React (^18.2.0)
+o	React DOM (^18.2.0)
+o	React Icons (^4.11.0)
+o	React Router DOM (^6.16.0)
+o	Styled Components (^6.0.8)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Executando o projeto
 
-## Learn More
+Após a configuração, você pode executar o projeto com o seguinte comando:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Isso iniciará o servidor de desenvolvimento e abrirá a aplicação em seu navegador.
 
-### Code Splitting
+## Uso
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Use a barra de pesquisa para encontrar filmes por título.
+* Navegue pelas categorias de gênero para encontrar filmes por gênero.
+* Clique em um filme para visualizar detalhes adicionais.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Desfrute da sua jornada cinematográfica com o 'Movies'!
+```
