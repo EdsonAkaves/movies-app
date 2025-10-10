@@ -10,9 +10,6 @@ Aplicação web React para exploração e descoberta de filmes utilizando a API 
 - ✅ Interface responsiva e moderna
 - ✅ Integração completa com TMDb API
 
-## 🔗 Demo
-
-> **Nota**: Este é um projeto de portfólio desenvolvido para demonstrar habilidades em React e consumo de APIs REST.
 
 ## 🚀 Tecnologias Utilizadas
 
