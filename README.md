@@ -10,6 +10,11 @@ Aplicação web React para exploração e descoberta de filmes utilizando a API 
 - ✅ Interface responsiva e moderna
 - ✅ Integração completa com TMDb API
 
+## 🔗 Demo
+
+🚀 **[Acesse o projeto online](https://movies-app-phi-sand.vercel.app/)**
+
+> **Nota**: Este é um projeto de portfólio desenvolvido para demonstrar habilidades em React e consumo de APIs REST.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -190,7 +195,7 @@ A aplicação é totalmente responsiva e funciona perfeitamente em:
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 👨‍💻 Autor
 
