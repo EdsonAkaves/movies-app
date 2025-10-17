@@ -6,6 +6,7 @@ import { StyledContainer, StyledMoviesContainer } from './Home.style';
 import Title from '../../components/Title/Title';
 
 const apiKey = process.env.REACT_APP_API_KEY;
+console.log('API KEY:', apiKey);
 
 const Home = () => {
   const [releases, setReleases] = useState([]);
@@ -18,7 +19,7 @@ const Home = () => {
   };
 
   useEffect(() => {
-    const getTopRatedUrl = `https://api.themoviedb.org/3/discover/movie?${apiKey}`;
+    const getTopRatedUrl = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}`;
     getTopRatedMovies(getTopRatedUrl);
   }, []);
 

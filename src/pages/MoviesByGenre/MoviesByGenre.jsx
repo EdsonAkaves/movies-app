@@ -7,7 +7,7 @@ import Title from '../../components/Title/Title'
 
 
 const apiKey = process.env.REACT_APP_API_KEY
-const apiUrl = `https://api.themoviedb.org/3/discover/movie?${apiKey}`
+const apiUrl = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}`
 
 
 const MoviesByGenre = () => {
@@ -24,7 +24,7 @@ const MoviesByGenre = () => {
     }
 
     const getGenreNameById = async (genreId) => {
-        const response = await fetch(`https://api.themoviedb.org/3/genre/movie/list?${apiKey}`)
+        const response = await fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
         const data = await response.json()
         const genre = data.genres.find((genre) => genre.id === parseInt(genreId))
         return genre.name
